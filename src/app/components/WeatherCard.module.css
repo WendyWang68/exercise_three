@@ -1,18 +1,44 @@
-.WeatherCardWrapper {
-    border: 1px solid black
+.WeatherCardWrapper { 
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .WeatherCardImage {
-    height: auto;
+    height: 120px;
     width: 120px;
+    margin: 0 auto;
 }
 
 .WeatherCardImage svg {
-    height: auto;
+    height: 100%;
     width: 100%;
+}
+
+.WeatherCardDetails {
+    margin: 8px 0;
 }
 
 .header1 {
     background-color: rgb(169, 95, 208);
+}
+
+@media (max-width: 768px) {
+    .WeatherCardWrapper {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .WeatherCardDetails p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .WeatherCardWrapper {
+        padding: 5px;
+    }
 }
 

@@ -11,13 +11,13 @@ const WeatherCard = ({cityName, weatherType, currentTemperature, highTemperature
         </div>
         <div className={styles.WeatherCardDetails}>
 
-        <p>Weather Type: {weatherType}</p>
-        <p>Current Temperature: {currentTemperature}</p>
-        <p>High Temperature: {highTemperature}</p>
-        <p>Low Temperature: {lowTemperature}</p>
-        <p>Cloudiness: {cloudiness}</p>
-        <p>Humidity: {humidity}</p>
-        <p>Wind Speed: {windSpeed}</p>
+            <p>Weather Type: {weatherType}</p>
+            <p>Current Temperature: {currentTemperature}</p>
+            <p>High Temperature: {highTemperature}</p>
+            <p>Low Temperature: {lowTemperature}</p>
+            <p>Cloudiness: {cloudiness}</p>
+            <p>Humidity: {humidity}</p>
+            <p>Wind Speed: {windSpeed}</p>
         </div>
     </div>
 );
